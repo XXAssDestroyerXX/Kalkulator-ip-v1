@@ -41,6 +41,8 @@ namespace WindowsFormsApp3
             IPNetwork network = IPNetwork.Parse(ipAddress.ToString(), maskAddress.ToString());
             maskedTextBox3.Text = network.Network.ToString();
             maskedTextBox4.Text = network.Broadcast.ToString();
+            maskedTextBox6.Text = network.FirstUsable.ToString();
+            maskedTextBox5.Text = network.LastUsable.ToString();
         }
 
         private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
