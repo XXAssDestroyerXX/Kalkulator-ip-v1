@@ -19,17 +19,12 @@ namespace WindowsFormsApp3
         {
             InitializeComponent();
         }
-
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-
         }
-
         private void label4_Click(object sender, EventArgs e)
         {
-
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             String ipString = maskedTextBox1.Text;
@@ -44,30 +39,15 @@ namespace WindowsFormsApp3
             maskedTextBox6.Text = network.FirstUsable.ToString();
             maskedTextBox5.Text = network.LastUsable.ToString();
         }
-
         private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
+        { }
         private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
+        { }
         private void maskedTextBox4_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
+        { }
         private void maskedTextBox6_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
+        { }
         private void maskedTextBox5_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
+        { }
     }
 }
